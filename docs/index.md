@@ -1,7 +1,3 @@
----
-layout: default
----
-
 # Integrative Biology R Workshop 2017
 
 ### Day 1 (14th Jan)
@@ -17,6 +13,7 @@ Time | Topic | Exercises
 16:00 - 17:00 | Round up |
 
 ### Day 2 (15th Jan)
+---
 Time | Topic | Exercises 
 ------------ | ------------- | -------------
 09:00 - 10:00 | Writing your own functions! | 
@@ -26,8 +23,10 @@ Time | Topic | Exercises
 13:00 - 14:00 | Reshaping your data |
 14:00 - 16:00 | Visualizations in `ggplot2` |
 16:00 - 17:00 | Basic stats in R |
+---
 
 ### Day 3 (15th Jan)
+---
 Time | Topic | Exercises 
 ------------ | ------------- | -------------
 09:00 - 10:00 | A vignette of the R universe | 
@@ -35,3 +34,4 @@ Time | Topic | Exercises
 11:00 - 12:00 | TBD |
 12:00 - 13:00 | Lunch break |
 13:00 - 14:00 | Debrief |
+---
