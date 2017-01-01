@@ -2,7 +2,7 @@
 
 ### Day 1 (14th Jan)
 Time | Topic | Exercises 
------------- | ------------- | -------------
+----------|------------|-------------
 09:00 - 10:00 | The R environment | 
 10:00 - 11:00 | Variables & Functions |
 11:00 - 12:00 | Objects in R |
