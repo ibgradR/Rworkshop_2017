@@ -39,15 +39,14 @@ Time | Topic | Exercises
 12:00 - 13:00 | Lunch break |
 13:00 - 14:00 | Reshaping your data |
 14:00 - 16:00 | Visualizations in `ggplot2` |
-16:00 - 17:00 | Basic stats in R |
+16:00 - 17:00 | Vanilla plotting |
 ---
 
 ### Day 3 (15th Jan)
 ---
 Time | Topic | Exercises 
 ------------ | ------------- | -------------
-09:00 - 10:00 | A vignette of the R universe | 
-10:00 - 11:00 | TBD |
+09:00 - 11:00 | Basic stats in R | 
 11:00 - 12:00 | TBD |
 12:00 - 13:00 | Lunch break |
 13:00 - 14:00 | Debrief |
