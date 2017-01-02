@@ -12,7 +12,7 @@ The purpose of this student-organized workshop is to introduce and familiarize g
 
 If you are interested in attending, please let Jun Ying Lim (junyinglim.at.berkeley.edu) or Lucy Chang (luchang.at.berkeley.edu) know!
 
-Last but not least, we really hope to see this workshop become a regular event in the academic calendar. If you are interested in volunteering in future years, please let us know!
+Last but not least, we really hope to see this workshop become a regular event in the academic calendar. If you are interested in volunteering in future years, please contact us.
 
 ## Schedule
 The preliminary schedule is found below.
