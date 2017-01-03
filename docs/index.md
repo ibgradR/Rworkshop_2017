@@ -51,7 +51,7 @@ The preliminary schedule is found below.
 | ---
 | 09:00 - 10:00 | Writing your own functions! | 
 | ---
-| 10:00 - 11:00 | `apply` as a for loop | 
+| 10:00 - 11:00 | `apply` as a `for` loop | 
 | ---
 | 11:00 - 12:00 | `plyr` as `apply` | 
 | ---
