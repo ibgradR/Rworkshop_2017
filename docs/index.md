@@ -33,11 +33,11 @@ The preliminary schedule is found below.
 | ---
 |11:00 - 12:00 | Objects in R | 
 | ---
-|12:00 - 13:00 | Lunch break | 
+|12:00 - 13:00 | LUNCH | 
 | ---
-|13:00 - 14:00 | Dataframes Part 1 | 
+|13:00 - 14:00 | Dataframes Part 1 (Navigating) | 
 | ---
-|14:00 - 15:00 | Dataframes Part 2 | 
+|14:00 - 15:00 | Dataframes Part 2 (Manipulating) | 
 | ---
 |15:00 - 16:00 | `For` and `while` loops | 
 | ---
@@ -55,9 +55,9 @@ The preliminary schedule is found below.
 | ---
 | 11:00 - 12:00 | `plyr` as `apply` | 
 | ---
-| 12:00 - 13:00 | Lunch break | 
+| 12:00 - 13:00 | LUNCH | 
 | ---
-| 13:00 - 14:00 | Reshaping your data | 
+| 13:00 - 14:00 | Reshaping your data for analyses and visualization | 
 | ---
 | 14:00 - 16:00 | Visualizations in `ggplot2` | 
 | ---
@@ -69,11 +69,11 @@ The preliminary schedule is found below.
 |---
 | Time | Topic | Exercises 
 | ---
-| 09:00 - 11:00 | Basic stats in R |  
+| 09:00 - 11:00 | Basic statistics in R |  
 | ---
-| 11:00 - 12:00 | R vignettes and Debrief | 
+| 11:00 - 12:00 | R vignettes and debrief | 
 | ---
-| 12:00 - 13:00 | Lunch break | 
+| 12:00 - 13:00 | LUNCH | 
 | ---
 | 13:00 - 14:00 | One-on-one R consultation period (optional) | 
 | ===
