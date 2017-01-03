@@ -55,7 +55,7 @@ The preliminary schedule is found below.
 |===
 
 ### Day 2 (15th Jan)
-| ---
+|---
 | Time | Topic | Exercises 
 | ------------ | ------------- | -------------| 
 | 09:00 - 10:00 | Writing your own functions! | 
@@ -68,7 +68,7 @@ The preliminary schedule is found below.
 |===
 
 ### Day 3 (15th Jan)
-| ---
+|---
 | Time | Topic | Exercises 
 | ------------ | ------------- | ------------- 
 | 09:00 - 11:00 | Basic stats in R |  
