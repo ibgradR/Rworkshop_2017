@@ -27,12 +27,7 @@ Prior to coming to the workshop, you should install the latest (or at least a fa
 The preliminary schedule is found below.
 
 ### Day 1 (14th Jan)
-|---
-| Time | Topic | Exercises 
-| First body part | Second cell | Third 
-| Second line |foo | **strong** 
-| Third line |quux | baz 
-|===
+
 
 |---
 |Time | Topic | Exercises | 
