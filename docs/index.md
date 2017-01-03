@@ -37,7 +37,7 @@ The preliminary schedule is found below.
 | ---
 |13:00 - 14:00 | Dataframes Part 1 (Navigating) | 
 | ---
-|14:00 - 15:00 | Dataframes Part 2 (Manipulating) | 
+|14:00 - 15:00 | Dataframes Part 2 (Manipulating)                    | 
 | ---
 |15:00 - 16:00 | `For` and `while` loops | 
 | ---
@@ -75,5 +75,5 @@ The preliminary schedule is found below.
 | ---
 | 12:00 - 13:00 | LUNCH | 
 | ---
-| 13:00 - 14:00 | One-on-one R consultation period (optional) | 
+| 13:00 - 14:00 | One-on-one R consultation period (optional)        | 
 | ===
