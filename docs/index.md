@@ -51,9 +51,9 @@ The preliminary schedule is found below.
 | ---
 | 09:00 - 10:00 | Writing your own functions! | 
 | ---
-| 10:00 - 11:00 | `Apply` as a for loop | 
+| 10:00 - 11:00 | `apply` as a for loop | 
 | ---
-| 11:00 - 12:00 | `Plyr` as `apply` | 
+| 11:00 - 12:00 | `plyr` as `apply` | 
 | ---
 | 12:00 - 13:00 | Lunch break | 
 | ---
@@ -61,10 +61,10 @@ The preliminary schedule is found below.
 | ---
 | 14:00 - 16:00 | Visualizations in `ggplot2` | 
 | ---
-| 16:00 - 17:00 | Vanilla plotting | 
+| 16:00 - 17:00 | Visualizations in base R | 
 |===
 
-### Day 3 (15th Jan)
+### Day 3 (16th Jan)
 
 |---
 | Time | Topic | Exercises 
