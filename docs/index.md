@@ -1,3 +1,7 @@
+---
+title: Integrative Biology R Workshop 2017
+---
+
 # Integrative Biology R Workshop 2017
 
 Welcome to the IB Grad Students R workshop 2017!
