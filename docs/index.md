@@ -27,6 +27,7 @@ Prior to coming to the workshop, you should install the latest (or at least a fa
 The preliminary schedule is found below.
 
 ### Day 1 (14th Jan)
+
 |---
 |Time | Topic | Exercises | 
 | ---
@@ -48,6 +49,7 @@ The preliminary schedule is found below.
 |===
 
 ### Day 2 (15th Jan)
+
 |---
 | Time | Topic | Exercises 
 | ---
@@ -67,6 +69,7 @@ The preliminary schedule is found below.
 |===
 
 ### Day 3 (15th Jan)
+
 |---
 | Time | Topic | Exercises 
 | ---
