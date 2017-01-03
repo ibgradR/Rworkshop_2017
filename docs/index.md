@@ -2,6 +2,7 @@
 title: Integrative Biology R Workshop 2017
 ---
 
+
 # Integrative Biology R Workshop 2017
 
 Welcome to the IB Grad Students R workshop 2017!
@@ -27,7 +28,7 @@ The preliminary schedule is found below.
 
 ### Day 1 (14th Jan)
 |Time | Topic | Exercises | |
-|----------|------------|-------------|
+|---------|---------|---------|
 |09:00 - 10:00 | The R environment | |
 |10:00 - 11:00 | Variables & Functions | |
 |11:00 - 12:00 | Objects in R | |
