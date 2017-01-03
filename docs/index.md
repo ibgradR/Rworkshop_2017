@@ -26,6 +26,20 @@ Prior to coming to the workshop, you should install the latest (or at least a fa
 ## Schedule
 The preliminary schedule is found below.
 
+|---
+| Default aligned | Left aligned | Center aligned | Right aligned
+|-|:-|:-:|-:
+| First body part | Second cell | Third cell | fourth cell
+| Second line |foo | **strong** | baz
+| Third line |quux | baz | bar
+|---
+| Second body
+| 2 line
+|===
+| Footer row
+
+
+
 ### Day 1 (14th Jan)
 |Time | Topic | Exercises | |
 | ---
