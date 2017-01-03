@@ -19,7 +19,7 @@ If you are interested in attending, please let Jun Ying Lim (junyinglim.at.berke
 Last but not least, we really hope to see this workshop become a regular event in the academic calendar. If you are interested in volunteering in future years, please contact us.
 
 ## Logistics
-Prior to coming to the workshop, you should install the latest (or at least a fairly recent) version of R (available https://cran.r-project.org/) **and** RStudio (https://www.rstudio.com/products/rstudio/download/). RStudio is a immensely popular graphical user interface for R that has many additional features.
+Prior to coming to the workshop, you should install the latest (or at least a fairly recent) version of R (available [here](https://cran.r-project.org/)) **and** RStudio (available [here](https://www.rstudio.com/products/rstudio/download/)). RStudio is a immensely popular graphical user interface for R that has many additional features.
 
 
 ## Schedule
