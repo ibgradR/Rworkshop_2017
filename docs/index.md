@@ -26,21 +26,25 @@ Prior to coming to the workshop, you should install the latest (or at least a fa
 ## Schedule
 The preliminary schedule is found below.
 
-|---
-| Default aligned | Left aligned | Center aligned | Right aligned
-|-|:-|:-:|-:
-| First body part | Second cell | Third cell | fourth cell
-| Second line |foo | **strong** | baz
-| Third line |quux | baz | bar
-|---
-| Second body
-| 2 line
-|===
-| Footer row
+
 
 
 
 ### Day 1 (14th Jan)
+|---
+| Time | Topic | Exercises 
+|-|:-|:-:
+|09:00 - 10:00 | The R environment | 
+|10:00 - 11:00 | Variables & Functions |
+|11:00 - 12:00 | Objects in R |
+|12:00 - 13:00 | Lunch break |
+| Second line |foo | **strong** 
+| Third line |quux | baz 
+|---
+|===
+
+
+
 |Time | Topic | Exercises | |
 | ---
 |09:00 - 10:00 | The R environment | |
