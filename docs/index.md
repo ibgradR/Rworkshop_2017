@@ -75,5 +75,5 @@ The preliminary schedule is found below.
 | ---
 | 12:00 - 13:00 | LUNCH | 
 | ---
-| 13:00 - 14:00 | One-on-one R consultation period (optional)        | 
+| 13:00 - 14:00 | One-on-one R consultation period and work time     | 
 | ===
