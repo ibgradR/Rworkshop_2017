@@ -7,7 +7,7 @@
 
 **Time:** 9am - 5pm 
 
-**Venue:** VLSB (room TBD) 
+**Venue:** VLSB 4110
 
 The purpose of this student-organized workshop is to introduce and familiarize graduate students with little or no prior programming to the basics of R (and act as a stepping stone to greater proficiency).
 
