@@ -1,0 +1,160 @@
+---
+title: "RWorkshop_Tidying_Data"
+author: "Keith Bouma-Gregson"
+date: "1/14/2017"
+output:
+  pdf_document: default
+  html_document: default
+  fig_height: 3
+  fig_width: 4
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{R echo= FALSE}
+# Make a messy data set in wide format
+library(tidyr)
+set.seed(10)
+messy <- data.frame(
+  id = 1:20,
+  site = rep(1:4, 5),
+  trt = rep(c('control', 'treatment'), each = 10),
+  mass.M = runif(20, 20, 40),
+  mass.F = runif(20, 5, 25)
+)
+
+
+Orange.messy <- spread(data= Orange, Tree, circumference)
+colnames(Orange.messy) <- c("age", "tree3", "tree1", "tree5", "tree2", "tree4")
+Orange.messy$age <- as.factor(Orange.messy$age)
+Orange.messy <- Orange.messy[, c(1, 3, 5, 2, 6, 4)]
+# values are the tree circumference at each age
+
+```
+
+
+## Tidy data  
+
+* Tidy data is
+    * each column is a variable
+    * each row is an observation
+    
+This is also known as **long** format vs. **wide** format where observations are spread among rows, not columns.    
+
+```{R}
+# Look at our data
+head(Orange.messy)
+```
+
+``` {R}
+library(ggplot2)
+# Plots with Orange.messy 
+ggplot(Orange.messy, aes(x= age, y= tree3)) + geom_point()
+
+ggplot(data= Orange.messy) + 
+  geom_point(aes(x= age, y= tree1), color= "blue") + 
+  geom_point(aes(x= age, y= tree2), color= "black")
+  
+ggplot(data= Orange.messy, aes(x= tree1, y= tree2)) + 
+  geom_point(aes(color= age)) + 
+  geom_abline(intercept= 0, slope= 1)
+```
+
+
+## Tidying data
+
+Enter the packages `tidyr()` and `reshape2()`. Which will move data between wide and long formats by specifiying the id, variable, and value columns.
+
+
+```{R message= FALSE}
+## gather() function in tidyr
+library(tidyr)
+Orange.tidy1 <- gather(data= Orange.messy, 
+                      key= tree, 
+                      value= circumference, 
+                      tree1:tree5)
+
+Orange.tidy2 <- gather(data= Orange.messy, 
+                      key= tree, 
+                      value= circumference, 
+                      -age)
+
+
+## melt function in reshape2
+library(reshape2)
+Orange.melt1 <- melt(data= Orange.messy, 
+                     variable.name= "tree", # key
+                     value.name= "circumference", # value
+                     id.vars= "age")
+```
+
+
+#### Now plot again
+
+```{R}
+ggplot(data= Orange.tidy1, aes(x= age, y=circumference, group= tree)) + 
+  geom_point(aes(color= tree)) +
+  geom_line(aes(color= tree))
+
+```
+\  
+\  
+We can also move from long to wide with `spread`
+```{R}
+orange.wide <- spread(data= Orange.tidy1, key= tree, value= circumference)
+
+```
+\  
+\  
+**Exercise** \   
+Make the `messy` data frame into long format. This data shows the mass (g) of males and females from 2 treatments and 4 sites.
+\  
+```{R }
+head(messy)
+```
+
+**The long form should like something like this**
+\  
+```{R}
+Messy.tidy <- gather(data= messy, key= metric, value= value, mass.M:mass.F)
+head(Messy.tidy)
+```
+
+**Separating** data with the `separate` function. This will split a variable name at a particular character and turn it into two variable columns.
+
+```{R}
+#
+tidy.data <- separate(data= Messy.tidy, col= metric, into= c("metric", "sex"), sep="\\.")
+
+tidy.data$site <- as.factor(tidy.data$site)
+
+str(tidy.data)
+```
+\  
+**Exercise**  
+Using the `tidy.data` data frame, make a ggplot boxplot with x= treatment, y= mass, with a separate color for each site and faceted by sex. Then make it more aesthetically pleasing than the default settings. 
+\  
+  
+***
+  
+\  
+```{R echo= FALSE}
+## Plot the data
+ggplot(data= tidy.data, aes(x= trt, y= value)) + 
+  geom_boxplot(aes(fill= site)) + 
+  labs(x= "Treatment", y= "Mass (g)") +
+  facet_grid(sex~., scales= "free_y") +
+  theme_bw(base_size= 20)
+```
+
+```{R eval= FALSE}
+## Plot the data
+ggplot(data= tidy.data, aes(x= trt, y= value)) + 
+  geom_boxplot(aes(fill= site)) + 
+  labs(x= "Treatment", y= "Mass (g)") +
+  facet_grid(sex~., scales= "free_y") +
+  theme_bw(base_size= 20)
+```
